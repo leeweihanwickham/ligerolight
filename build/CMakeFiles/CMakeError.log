@@ -1,0 +1,89 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bce7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bce7f.dir/build.make CMakeFiles/cmTC_bce7f.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bce7f.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_bce7f.dir/CheckSymbolExists.c.o   -c "/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_bce7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bce7f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bce7f.dir/CheckSymbolExists.c.o  -o cmTC_bce7f -rdynamic 
+CMakeFiles/cmTC_bce7f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bce7f.dir/build.make:97: recipe for target 'cmTC_bce7f' failed
+make[1]: *** [cmTC_bce7f] Error 1
+make[1]: Leaving directory '/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bce7f/fast' failed
+make: *** [cmTC_bce7f/fast] Error 2
+
+File /home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4bb2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4bb2.dir/build.make CMakeFiles/cmTC_d4bb2.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4bb2.dir/src.cxx.o
+/usr/bin/c++     -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_d4bb2.dir/src.cxx.o -c "/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp/src.cxx"
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_d4bb2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d4bb2.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d4bb2.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d4bb2/fast' failed
+make: *** [cmTC_d4bb2/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5dbd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5dbd.dir/build.make CMakeFiles/cmTC_f5dbd.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5dbd.dir/src.cxx.o
+/usr/bin/c++     -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -o CMakeFiles/cmTC_f5dbd.dir/src.cxx.o -c "/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp/src.cxx"
+c++: error: unrecognized command line option '-wd654'
+c++: error: unrecognized command line option '-wd654'
+CMakeFiles/cmTC_f5dbd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f5dbd.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_f5dbd.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f5dbd/fast' failed
+make: *** [cmTC_f5dbd/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74ac2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74ac2.dir/build.make CMakeFiles/cmTC_74ac2.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74ac2.dir/src.cxx.o
+/usr/bin/c++     -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_74ac2.dir/src.cxx.o -c "/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp/src.cxx"
+c++: error: unrecognized command line option '-Wthread-safety'
+c++: error: unrecognized command line option '-Wthread-safety'
+CMakeFiles/cmTC_74ac2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_74ac2.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_74ac2.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/leeweihan/Desktop/ligero++ -1209/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_74ac2/fast' failed
+make: *** [cmTC_74ac2/fast] Error 2
+
+Source file was:
+int main() { return 0; }
