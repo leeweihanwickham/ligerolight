@@ -14,7 +14,7 @@ The implementation includes:
 
 - An efficient field F_p where p = 2^64 - 2^32 + 1. The FRI protocol requires that there exists multiplicative cosets with order 2^k for large enough k. Our field has a multiplicative coset with size 2^32. Compared with galois field and other prime field in libiop, our field are more efficient to support faster FFTs and multiplication. See the paper for details. The implemented field is in depends/libff/libff/algebra/fields/prime_base/fp_64.tcc.
 
-- A batch zero-knowledge inner product argument. The batch zk-IPA allows proving multiple inner product relations at one time. The communication complexity of this batch zk-IPA is poly-logarithmic to the vector length and the verifier complexity is also logarithmic if using an interactive proof called GKR protocol as delegation. The delegation and FFT circuit refer to [Virgo](https://github.com/sunblaze-ucb/Virgo). The implemented zk-IPA is in
+- A batch zero-knowledge inner product argument. The batch zk-IPA allows proving multiple inner product relations at one time. The communication complexity of this batch zk-IPA is poly-logarithmic to the vector length and the verifier complexity is also logarithmic if using an interactive proof called GKR protocol as delegation. The delegation and FFT circuit refer to [Virgo](https://github.com/sunblaze-ucb/Virgo). The implemented zk-IPA is in ligero/tests/test_PCS.cpp
 
 - Ligerolight. See ligero/tests/test_debugg.cpp. The statement is 
 Merkle tree with SHA-256 functions. The circuit is written using compilers in [libsnark](https://github.com/scipr-lab/libsnark). See ligero/gadgetlib1 for detials.
