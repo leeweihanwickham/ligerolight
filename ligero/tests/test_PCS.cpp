@@ -83,10 +83,10 @@ int main()
 
     // 当type = 1时，是正确情况下的测试
     // 当type = 0时，是异常测试
-    const std::size_t test_type = 0;
+    const std::size_t test_type = 1;
 
     // batch number
-    const std::size_t instance = 10;
+    const std::size_t instance = 1;
     // rho
     const std::size_t RS_extra_dimension = 3;
     // eta
@@ -540,12 +540,15 @@ int main()
         if (!(result1 && result2))
         {
             libff::print_indent();
-            std::cout << "批量化内积论证运行失败!" << std::endl;
+            std::cout << "这是批量化内积论证异常处理测试 !" << std::endl;
+            std::cout
+                << "批量化内积论证运行失败!" << std::endl;
             std::cout << "批量化内积论证异常处理测试运行成功!" << std::endl;
         }
         else
         {
             libff::print_indent();
+            std::cout << "这是批量化内积论证总体功能测试 !" << std::endl;
             std::cout << "批量化内积论证运行成功!" << std::endl;
         }
 

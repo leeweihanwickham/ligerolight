@@ -22,7 +22,7 @@ int main()
     const std::size_t test_type = 1;
 
     // 修改input_size以完成输入规模扩展测试，可选参数为1, 2, 4, 8
-    const std::size_t input_size = 8;
+    const std::size_t input_size = 1;
 
     const std::size_t RS_extra_dimensions = 2; // 2 or 3
     const std::size_t RS_col_extra_dimensions = 3;

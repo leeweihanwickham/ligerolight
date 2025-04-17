@@ -1,39 +1,244 @@
-# ligerolight
-an optimized zero-knowledge argument for blockchain scalability
+# 编译
 
-Ligerolight is a zero-knowledge **S**calable **T**ransparent **AR**gument of **K**nowledge (zk-STARK). It is plausible post-quantum secure, transparent and has poly-lograthimic communication complexity.
-
-**WARNING**: This is an academic proof-of-concept prototype, and in particular has not received careful code review.
-This implementation is NOT ready for production use.
-
-=======
-
-The implementation includes:
-
-- An efficient FRI implementation. See ligero/protocols/ldt/fri/fri_ldt.hpp for details and ligero/tests/test_fri.cpp for tests. We refer to some auxiliary functions from [libiop](https://github.com/scipr-lab/libiop/tree/master/libiop/protocols/ldt/fri/fri_aux.hpp). We use the conjectured soundness in [[BCI+20]](https://eprint.iacr.org/2020/654), which is used in [estark]() and [plonky2](https://github.com/mir-protocol/plonky2/blob/main/plonky2/plonky2.pdf). The localization parameter is adjustable.
-
-- An efficient field F_p where p = 2^64 - 2^32 + 1. The FRI protocol requires that there exists multiplicative cosets with order 2^k for large enough k. Our field has a multiplicative coset with size 2^32. Compared with galois field and other prime field in libiop, our field are more efficient to support faster FFTs and multiplication. See the paper for details. The implemented field is in depends/libff/libff/algebra/fields/prime_base/fp_64.tcc.
-
-- A batch zero-knowledge inner product argument. The batch zk-IPA allows proving multiple inner product relations at one time. The communication complexity of this batch zk-IPA is poly-logarithmic to the vector length and the verifier complexity is also logarithmic if using an interactive proof called GKR protocol as delegation. The delegation and FFT circuit refer to [Virgo](https://github.com/sunblaze-ucb/Virgo). The implemented zk-IPA is in ligero/tests/test_PCS.cpp
-
-- Ligerolight. See ligero/tests/test_debugg.cpp. The statement is 
-Merkle tree with SHA-256 functions. The circuit is written using compilers in [libsnark](https://github.com/scipr-lab/libsnark). See ligero/gadgetlib1 for detials.
-The RS code rate for row and column, the localization parameter array, the circuit size, the security parameter are all adjustable.
-We use blake3 hash function for merkle tree, where other compiler languages such as assembly and rust are involved. The test for merkle tree is in ligerolight/ligero/tests/test_merkleTree.cpp.
-
-## Usage
-
-To run the code, first install depends
+运行
 
 ```bash
 sudo apt-get install build-essential cmake git libgmp3-dev libprocps4-dev libboost-all-dev libssl-dev libsodium-dev --fix-missing
 git submodule init && git submodule update
 ```
 
-then build
+然后编译
 ```bash
 mkdir build
 cd build
 cmake ..
 make
 ```
+
+# 批量化零知识内积论证模块
+
+## （1）	批量化零知识内积论证模块-总体功能测试
+
+运行
+```bash
+cd build
+cmake ..
+make
+./ligero/test_PCS
+```
+
+可以看到控制台打印
+
+```bash
+这是批量化内积论证总体功能测试 !
+批量化内积论证运行成功!
+```
+字样
+
+这代表批量化零知识内积论证模块-总体功能测试通过
+
+## （2）	批量化零知识内积论证模块-输入规模扩展测试
+
+修改 [ligero/test_PCS.cpp](ligero/tests/test_PCS.cpp) 中 variable_num 的值以调整输入向量规模。
+可以调整为8,9,10,11,12.
+
+对于每一个 variable_num，运行
+```bash
+cd build
+cmake ..
+make
+./ligero/test_PCS
+```
+
+可以看到控制台打印
+
+```bash
+这是批量化内积论证总体功能测试 !
+批量化内积论证运行成功!
+向量长度: xx
+```
+字样
+
+这代表批量化零知识内积论证模块-输入规模扩展测试通过
+
+## （3）	批量化零知识内积论证模块-异常处理测试
+
+修改 [ligero/test_PCS.cpp](ligero/tests/test_PCS.cpp) 中 variable_num = 10。
+
+将参数 test_type 设置为 0。
+
+运行
+```bash
+cd build
+cmake ..
+make
+./ligero/test_PCS
+```
+
+可以看到控制台打印
+
+```bash
+这是批量化内积论证异常处理测试!
+批量化内积论证运行失败!
+批量化内积论证异常处理测试运行成功!
+```
+字样
+
+这代表批量化零知识内积论证模块-异常处理测试通过
+
+## （4）	批量化零知识内积论证模块-批量处理测试
+
+修改 [ligero/test_PCS.cpp](ligero/tests/test_PCS.cpp) 中 test_type = 1。
+
+将 instance 设置为 8, 9 ,10, 11, 12.
+
+对于每一个 instance 值，运行
+```bash
+cd build
+cmake ..
+make
+./ligero/test_PCS
+```
+
+可以看到控制台打印
+
+```bash
+这是批量化内积论证总体功能测试!
+批量化内积论证运行成功!
+批处理规模: xx
+```
+字样
+
+这代表批量化零知识内积论证模块-批量处理测试通过
+
+## （5）	线性约束检查单元-总体功能测试
+
+修改 [ligero/test_PCS.cpp](ligero/tests/test_PCS.cpp) 中 instance = 1。
+
+运行
+```bash
+cd build
+cmake ..
+make
+./ligero/test_PCS
+```
+
+可以看到控制台打印
+
+```bash
+线性约束检查模块通过！
+线性约束检查通信量：xxx
+```
+字样
+
+这代表线性约束检查单元-总体功能测试通过
+
+# 基于安全多方计算的零知识证明模块
+
+## （1）	基于安全多方计算的零知识证明模块-总体功能测试
+
+
+运行
+```bash
+cd build
+cmake ..
+make
+./ligero/test_debugg
+```
+
+可以看到控制台打印
+
+```bash
+这是基于安全多方计算的零知识证明在正常情况下的测试！
+基于安全多方计算的零知识证明运行成功！
+基于安全多方计算的零知识证明总体功能测试通过!
+```
+字样
+
+这代表基于安全多方计算的零知识证明模块-总体功能测试通过
+
+## （2）	基于安全多方计算的零知识证明模块-输入规模扩展测试
+
+修改 [ligero/test_debugg.cpp](ligero/tests/test_debugg.cpp) 中 input_size = 1, 2, 4或 8。
+
+对于每一个input_size，运行
+```bash
+cd build
+cmake ..
+make
+./ligero/test_debugg
+```
+
+可以看到控制台打印
+
+```bash
+这是基于安全多方计算的零知识证明在正常情况下的测试！
+输入规模为深度为 xx 的默克尔树!
+基于安全多方计算的零知识证明运行成功！
+```
+字样
+
+这代表基于安全多方计算的零知识证明模块-输入规模扩展测试通过
+
+## （3）	基于安全多方计算的零知识证明模块-异常处理测试
+
+修改 [ligero/test_debugg.cpp](ligero/tests/test_debugg.cpp) 中 input_size = 1。
+
+修改 test_type = 0。
+
+运行
+```bash
+cd build
+cmake ..
+make
+./ligero/test_debugg
+```
+
+可以看到控制台打印
+
+```bash
+这是基于安全多方计算的零知识证明异常处理测试！
+基于安全多方计算的零知识证明运行失败！
+基于安全多方计算的零知识证明异常处理测试通过！
+```
+字样
+
+这代表基于安全多方计算的零知识证明模块-异常处理测试通过
+
+## （4）	基于安全多方计算的零知识证明模块-可插拔及重复执行测试
+
+修改 [ligero/test_debugg.cpp](ligero/tests/test_debugg.cpp) 中  test_type = 1。
+
+运行
+```bash
+cd build
+cmake ..
+make
+./ligero/test_debugg
+```
+
+可以看到控制台打印
+
+```bash
+基于安全多方计算的零知识证明Ligerolight模块（模块1）执行通过！
+```
+字样
+
+这代表基于安全多方计算的零知识证明模块-模块1可插拔测试通过
+
+多次运行
+```bash
+cd build
+cmake ..
+make
+./ligero/test_debugg
+```
+
+可以看到控制台打印
+
+```bash
+基于安全多方计算的零知识证明Ligerolight模块（模块1）执行通过！
+```
+字样
+
+这代表基于安全多方计算的零知识证明模块-模块1重复执行测试通过
