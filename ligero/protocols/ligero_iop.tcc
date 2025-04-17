@@ -1,5 +1,5 @@
 /** 本部分的主要作用在于计算编码后矩阵的行长、列长，计算交互阶段和访问阶段的次数等 **/
-#include <python2.7/Python.h>
+// #include <python2.7/Python.h>
 #include "ligero_iop.hpp"
 
 namespace ligero {

@@ -1,0 +1,537 @@
+[
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14 -o depends/CMakeFiles/zm.dir/ate-pairing/src/zm.cpp.o -c /home/gby/ligerolight/depends/ate-pairing/src/zm.cpp",
+  "file": "/home/gby/ligerolight/depends/ate-pairing/src/zm.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14 -o depends/CMakeFiles/zm.dir/ate-pairing/src/zm2.cpp.o -c /home/gby/ligerolight/depends/ate-pairing/src/zm2.cpp",
+  "file": "/home/gby/ligerolight/depends/ate-pairing/src/zm2.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/gtest/googlemock/include -I/home/gby/ligerolight/depends/gtest/googlemock -I/home/gby/ligerolight/depends/gtest/googletest -isystem /home/gby/ligerolight/depends/gtest/googletest/include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o depends/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/gby/ligerolight/depends/gtest/googlemock/src/gmock-all.cc",
+  "file": "/home/gby/ligerolight/depends/gtest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/gtest/googlemock -I/home/gby/ligerolight/depends/gtest/googletest -isystem /home/gby/ligerolight/depends/gtest/googlemock/include -isystem /home/gby/ligerolight/depends/gtest/googletest/include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o depends/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/gby/ligerolight/depends/gtest/googlemock/src/gmock_main.cc",
+  "file": "/home/gby/ligerolight/depends/gtest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/gtest/googletest/include -I/home/gby/ligerolight/depends/gtest/googletest  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/gby/ligerolight/depends/gtest/googletest/src/gtest-all.cc",
+  "file": "/home/gby/ligerolight/depends/gtest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/gtest/googletest -isystem /home/gby/ligerolight/depends/gtest/googletest/include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/gby/ligerolight/depends/gtest/googletest/src/gtest_main.cc",
+  "file": "/home/gby/ligerolight/depends/gtest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/benchmark.cc.o -c /home/gby/ligerolight/depends/benchmark/src/benchmark.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/benchmark.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o -c /home/gby/ligerolight/depends/benchmark/src/benchmark_register.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/benchmark_register.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/colorprint.cc.o -c /home/gby/ligerolight/depends/benchmark/src/colorprint.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/colorprint.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o -c /home/gby/ligerolight/depends/benchmark/src/commandlineflags.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/commandlineflags.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/complexity.cc.o -c /home/gby/ligerolight/depends/benchmark/src/complexity.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/complexity.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/console_reporter.cc.o -c /home/gby/ligerolight/depends/benchmark/src/console_reporter.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/console_reporter.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/counter.cc.o -c /home/gby/ligerolight/depends/benchmark/src/counter.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/counter.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o -c /home/gby/ligerolight/depends/benchmark/src/csv_reporter.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/csv_reporter.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/json_reporter.cc.o -c /home/gby/ligerolight/depends/benchmark/src/json_reporter.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/json_reporter.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/reporter.cc.o -c /home/gby/ligerolight/depends/benchmark/src/reporter.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/reporter.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/sleep.cc.o -c /home/gby/ligerolight/depends/benchmark/src/sleep.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/sleep.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/statistics.cc.o -c /home/gby/ligerolight/depends/benchmark/src/statistics.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/statistics.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/string_util.cc.o -c /home/gby/ligerolight/depends/benchmark/src/string_util.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/string_util.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/sysinfo.cc.o -c /home/gby/ligerolight/depends/benchmark/src/sysinfo.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/sysinfo.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/benchmark/include -I/home/gby/ligerolight/depends/benchmark/src -I/home/gby/ligerolight/depends/benchmark/src/../include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -g -std=gnu++14 -o depends/benchmark/src/CMakeFiles/benchmark.dir/timers.cc.o -c /home/gby/ligerolight/depends/benchmark/src/timers.cc",
+  "file": "/home/gby/ligerolight/depends/benchmark/src/timers.cc"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bls12_381/bls12_381_fields.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_fields.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_fields.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bls12_381/bls12_381_g1.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_g1.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_g1.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bls12_381/bls12_381_g2.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_g2.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_g2.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bls12_381/bls12_381_init.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_init.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_init.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bls12_381/bls12_381_pairing.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_pairing.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_pairing.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bls12_381/bls12_381_pp.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_pp.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bls12_381/bls12_381_pp.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_fields.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_fields.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_fields.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_fields.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_fields.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_fields.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_g1.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_g1.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_g2.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_g2.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_init.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_init.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_pairing.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_pairing.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_pp.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/edwards/edwards_pp.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_fields.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_fields.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_fields.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_fields.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_fields.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_fields.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/fields/binary/gf32.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/fields/binary/gf32.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/fields/binary/gf32.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/fields/binary/gf64.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/fields/binary/gf64.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/fields/binary/gf64.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/fields/binary/gf128.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/fields/binary/gf128.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/fields/binary/gf128.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/fields/binary/gf192.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/fields/binary/gf192.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/fields/binary/gf192.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/fields/binary/gf256.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/fields/binary/gf256.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/fields/binary/gf256.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.o -c /home/gby/ligerolight/depends/libff/libff/common/double.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/common/double.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.o -c /home/gby/ligerolight/depends/libff/libff/common/profiling.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/common/profiling.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o -c /home/gby/ligerolight/depends/libff/libff/common/utils.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/common/utils.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_fields.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_fields.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_fields.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g1.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_g1.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_g1.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_g2.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_g2.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_g2.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_gt.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_gt.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_gt.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_init.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_init.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_init.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pairing.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_pairing.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_pairing.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DBINARY_OUTPUT -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libff/depends -I/home/gby/ligerolight/depends/libff/libff/depends -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -mpclmul -msse4.1 -g -std=gnu++14 -o depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/bn128/bn128_pp.cpp.o -c /home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_pp.cpp",
+  "file": "/home/gby/ligerolight/depends/libff/libff/algebra/curves/bn128/bn128_pp.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libfqfft/. -I/home/gby/ligerolight/depends/libfqfft/depends/libff -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -pthread -ggdb3 -O3 -march=native -mtune=native -g -std=gnu++14 -o depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o -c /home/gby/ligerolight/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp",
+  "file": "/home/gby/ligerolight/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libfqfft/. -I/home/gby/ligerolight/depends/libfqfft/depends/libff -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -pthread -ggdb3 -O3 -march=native -mtune=native -g -std=gnu++14 -o depends/libfqfft/tutorials/CMakeFiles/polynomial_evaluation.dir/polynomial_evaluation_example.cpp.o -c /home/gby/ligerolight/depends/libfqfft/tutorials/polynomial_evaluation_example.cpp",
+  "file": "/home/gby/ligerolight/depends/libfqfft/tutorials/polynomial_evaluation_example.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DNO_PROCPS -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/depends/ate-pairing/include -I/home/gby/ligerolight/depends/xbyak -I/home/gby/ligerolight/depends/libfqfft/. -I/home/gby/ligerolight/depends/libfqfft/depends/libff -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -pthread -ggdb3 -O3 -march=native -mtune=native -g -std=gnu++14 -o depends/libfqfft/tutorials/CMakeFiles/lagrange_polynomial_evaluation.dir/lagrange_polynomial_evaluation_example.cpp.o -c /home/gby/ligerolight/depends/libfqfft/tutorials/lagrange_polynomial_evaluation_example.cpp",
+  "file": "/home/gby/ligerolight/depends/libfqfft/tutorials/lagrange_polynomial_evaluation_example.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14 -o ligero/CMakeFiles/ligero.dir/common/common.cpp.o -c /home/gby/ligerolight/ligero/common/common.cpp",
+  "file": "/home/gby/ligerolight/ligero/common/common.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14 -o ligero/CMakeFiles/ligero.dir/bcs/hashing/blake2b.cpp.o -c /home/gby/ligerolight/ligero/bcs/hashing/blake2b.cpp",
+  "file": "/home/gby/ligerolight/ligero/bcs/hashing/blake2b.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14 -o ligero/CMakeFiles/ligero.dir/protocols/ldt/ldt_reducer.cpp.o -c /home/gby/ligerolight/ligero/protocols/ldt/ldt_reducer.cpp",
+  "file": "/home/gby/ligerolight/ligero/protocols/ldt/ldt_reducer.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14 -o ligero/CMakeFiles/ligero.dir/iop/utilities/batching.cpp.o -c /home/gby/ligerolight/ligero/iop/utilities/batching.cpp",
+  "file": "/home/gby/ligerolight/ligero/iop/utilities/batching.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14 -o ligero/CMakeFiles/ligero.dir/algebra/utils.cpp.o -c /home/gby/ligerolight/ligero/algebra/utils.cpp",
+  "file": "/home/gby/ligerolight/ligero/algebra/utils.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14 -o ligero/CMakeFiles/test_debugg.dir/tests/test_debugg.cpp.o -c /home/gby/ligerolight/ligero/tests/test_debugg.cpp",
+  "file": "/home/gby/ligerolight/ligero/tests/test_debugg.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -g -o ligero/CMakeFiles/test_debugg.dir/bcs/BLAKE3/blake3.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -g -o ligero/CMakeFiles/test_debugg.dir/bcs/BLAKE3/blake3_dispatch.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_dispatch.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_dispatch.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -g -o ligero/CMakeFiles/test_debugg.dir/bcs/BLAKE3/blake3_portable.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_portable.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_portable.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_debugg.dir/bcs/BLAKE3/blake3_sse2_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse2_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse2_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_debugg.dir/bcs/BLAKE3/blake3_sse41_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse41_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse41_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_debugg.dir/bcs/BLAKE3/blake3_avx2_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx2_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx2_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_debugg.dir/bcs/BLAKE3/blake3_avx512_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx512_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx512_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14 -o ligero/CMakeFiles/test_PCS.dir/tests/test_PCS.cpp.o -c /home/gby/ligerolight/ligero/tests/test_PCS.cpp",
+  "file": "/home/gby/ligerolight/ligero/tests/test_PCS.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -g -o ligero/CMakeFiles/test_PCS.dir/bcs/BLAKE3/blake3.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -g -o ligero/CMakeFiles/test_PCS.dir/bcs/BLAKE3/blake3_dispatch.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_dispatch.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_dispatch.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -g -o ligero/CMakeFiles/test_PCS.dir/bcs/BLAKE3/blake3_portable.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_portable.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_portable.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_PCS.dir/bcs/BLAKE3/blake3_sse2_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse2_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse2_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_PCS.dir/bcs/BLAKE3/blake3_sse41_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse41_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse41_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_PCS.dir/bcs/BLAKE3/blake3_avx2_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx2_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx2_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_PCS.dir/bcs/BLAKE3/blake3_avx512_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx512_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx512_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/..  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14 -o ligero/CMakeFiles/test_merkleTree.dir/tests/test_merkleTree.cpp.o -c /home/gby/ligerolight/ligero/tests/test_merkleTree.cpp",
+  "file": "/home/gby/ligerolight/ligero/tests/test_merkleTree.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -g -o ligero/CMakeFiles/test_merkleTree.dir/bcs/BLAKE3/blake3.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -g -o ligero/CMakeFiles/test_merkleTree.dir/bcs/BLAKE3/blake3_dispatch.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_dispatch.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_dispatch.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -g -o ligero/CMakeFiles/test_merkleTree.dir/bcs/BLAKE3/blake3_portable.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_portable.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_portable.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_merkleTree.dir/bcs/BLAKE3/blake3_sse2_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse2_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse2_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_merkleTree.dir/bcs/BLAKE3/blake3_sse41_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse41_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse41_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_merkleTree.dir/bcs/BLAKE3/blake3_avx2_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx2_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx2_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -g -o ligero/CMakeFiles/test_merkleTree.dir/bcs/BLAKE3/blake3_avx512_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx512_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx512_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/c++ -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /home/gby/ligerolight/depends/gtest/googletest/include  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14 -o ligero/CMakeFiles/test_fri.dir/tests/test_fri.cpp.o -c /home/gby/ligerolight/ligero/tests/test_fri.cpp",
+  "file": "/home/gby/ligerolight/ligero/tests/test_fri.cpp"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /home/gby/ligerolight/depends/gtest/googletest/include -g -o ligero/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /home/gby/ligerolight/depends/gtest/googletest/include -g -o ligero/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_dispatch.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_dispatch.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_dispatch.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /home/gby/ligerolight/depends/gtest/googletest/include -g -o ligero/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_portable.c.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_portable.c",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_portable.c"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -isystem /home/gby/ligerolight/depends/gtest/googletest/include -g -o ligero/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_sse2_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse2_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse2_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -isystem /home/gby/ligerolight/depends/gtest/googletest/include -g -o ligero/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_sse41_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse41_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_sse41_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -isystem /home/gby/ligerolight/depends/gtest/googletest/include -g -o ligero/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_avx2_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx2_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx2_x86-64_unix.S"
+},
+{
+  "directory": "/home/gby/ligerolight/build",
+  "command": "/usr/bin/gcc-12 -DUSE_ASM -I/usr/include -I/home/gby/ligerolight/. -I/home/gby/ligerolight/ligero/../depends/libfqfft -I/home/gby/ligerolight/ligero/../depends/libff -I/home/gby/ligerolight/depends/libff/libff/.. -isystem /usr/include/x86_64-linux-gnu -isystem /home/gby/ligerolight/depends/gtest/googletest/include -g -o ligero/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_avx512_x86-64_unix.S.o -c /home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx512_x86-64_unix.S",
+  "file": "/home/gby/ligerolight/ligero/bcs/BLAKE3/blake3_avx512_x86-64_unix.S"
+}
+]
