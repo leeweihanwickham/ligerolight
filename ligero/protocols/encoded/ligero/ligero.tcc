@@ -1211,7 +1211,7 @@ namespace ligero
         //    std::cout << "inner product: proof_size_field is " << ipa_field_size << std::endl;
         //    std::cout << "inner product: last poly size is " << FRI_field_number_last_round* field_size_bits/1024/8 << std::endl;
         //    std::cout << "correct_check: proof_size_field is " << correct_check_field_size << std::endl;
-        std::cout << "ligero++: total proof size field is " << proof_size_field << std::endl;
+        std::cout << "ligerolight: total proof size field is " << proof_size_field << std::endl;
         //    std::cout << "inner product: v_trees hashes is " << v_trees_hashes * 200 / 1024 / 8 << std::endl;
         //    std::cout << "inner product: h_tree hash is " << h_tree_hashes * 200 / 1024 / 8 << std::endl;
         //    std::cout << "inner product: FRI_trees hash is " << FRI_trees_hashes * 200 / 1024 / 8 << std::endl;
@@ -1219,7 +1219,7 @@ namespace ligero
         //    std::cout << "inner product: proof_size_path_hashes is " << proof_size_path_hash_number * 200 / 1024 / 8 << std::endl;
         std::cout << "inner product: proof_size_hash is " << proof_size_hash << std::endl;
         std::cout << "inner product: proof_size_fft_GKR is " << fft_GKR_proof_size + fft_GKR_output << std::endl; // mark
-        std::cout << "ligero++: total_proof_size is " << proof_size + fft_GKR_proof_size + fft_GKR_output << std::endl;
+        std::cout << "ligerolight: total_proof_size is " << proof_size + fft_GKR_proof_size + fft_GKR_output << "KB" << std::endl;
         libff::leave_block("Compute proof size");
 
         std::cout << "inner product: the time of calculate ffts:" << p_fft_time << std::endl;                    // mark
